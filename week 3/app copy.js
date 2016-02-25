@@ -9,9 +9,7 @@ console.log(response);
     
 
     
-
-
-  if  (response == 'The letter "e"'){
+if  (response == 'The letter "e"'){
    greeting = "Correct!"
    
    
@@ -23,7 +21,6 @@ console.log(response);
     
     
     
-	
 var message = document.getElementById("message");
 message.innerHTML = greeting; 	
 
