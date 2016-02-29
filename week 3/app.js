@@ -1,9 +1,15 @@
 var submit = document.getElementById("submit");
 submit.onclick = function() {
     
-var answer = document.getElementById("answer").value;
-console.log(answer);    
-if  (answer == 'The letter "e"'){
+var response = [];    
+    
+    
+var responseElements = document.getElementsByClassName("response");
+console.log(response); 
+    
+
+    
+if  (response == 'The letter "e"'){
    greeting = "Correct!"
    
    
@@ -15,7 +21,6 @@ if  (answer == 'The letter "e"'){
     
     
     
-	
 var message = document.getElementById("message");
 message.innerHTML = greeting; 	
 
