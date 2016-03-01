@@ -1,62 +1,39 @@
-function foo(){
-     document.write("Hello :)");
-}
-foo();
-console.log(typeof foo);
+var submit = document.getElementById("answerButton");
+submit.onclick = function() {
 
-var bar = function() {
-     document.write("world. ");
-}
-bar();
-console.log(typeof bar);
-document.write("<br><br>");
+var messages = [
+  'Maybe.', 'Certainly not.', 'I hope so.', 'Not in your wildest dreams.',
+  'There is a good chance.', 'Quite likely.', 'I think so.', 'I hope not.',
+  'I hope so.', 'Never!', 'Fuhgeddaboudit.', 'Ahaha! Really?!?', 'Pfft.',
+  'Sorry, bucko.', 'Hell, yes.', 'Hell to the no.', 'The future is bleak.',
+  'The future is uncertain.', 'I would rather not say.', 'Who cares?',
+  'Possibly.', 'Never, ever, ever.', 'There is a small chance.', 'Yes!'];
 
-var greet = function(name, greeting) {
-    var text = greeting + " , " + name;
-    document.write(text);
-}
-greet();
-greet("Jenny", "Hello");
-greet("Jerry", "Hi");
-
-var add = function(n1, n2) {
-	console.log(arguments);
-    return n1 + n2;
+document.getElementById('answerButton').onclick = function () 
+{var answer = messages[Math.floor(Math.random() * messages.length)];
+document.getElementById('message').innerHTML = answer;
 };
-
-var x = add(2, 2);
-var y = add(x, 2);
-var z = add(x, y);
-document.write("<p>" + add(x, y) + " </p>");
-
-(function(x) {
-    alert(x);
-})("Hello World!");
-
-var assign = function() {
-    var n = 0;
-    var m = 1;
     
-};
-var multiply = function() {
-    return n * m;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-assign();
-multiply();
 
-var j;
-var k;
 
-var assignValues = function() {
-    j = 5;
-    k = 2;
-};
 
-var divide = function() {
-    return j/k;
-};
-assignValues();
-var l = divide();
-document.write("<p>" + l + " </p>");
-
- 
