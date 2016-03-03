@@ -8,3 +8,10 @@ label {font-size: 1.2em;
 }
 
 
+body {font-family: Helvetica, Arial, sans-serif;
+      background: lightgreen;
+      margin: 0;
+      line-height: 1.45;
+	  font-size:20px;
+	  text-align: center;
+}
