@@ -13,6 +13,31 @@ if  (answer == 'The letter "e"'){
   greeting = "Nope. Sorry"
 }
     
+var answer2 = document.getElementById("answer2").value;
+console.log(answer2);    
+if  (answer == 'The letter "e"'){
+   greeting = "Correct!"
+   
+   
+
+} else {
+    
+  greeting = "Nope. Sorry"
+}
+    
+
+var answer3 = document.getElementById("answer3").value;
+console.log(answer3);    
+if  (answer == 'The letter "e"'){
+   greeting = "Correct!"
+   
+   
+
+} else {
+    
+  greeting = "Nope. Sorry"
+}
+    
     
     
 	

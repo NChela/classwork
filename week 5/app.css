@@ -1,17 +1,17 @@
 label {font-size: 1.2em;
       font-family: Verdana;
-      font-weight: 200;
-      color: green;
-      background-color:#D9F7D9;
+      font-weight: 100;
+      color: lightgoldenrodyellow;
+      background-color:black;
       
 
 }
 
 
 body {font-family: Helvetica, Arial, sans-serif;
-      background: lightblue;
+      background-color: palevioletred;
       margin: 0;
-      line-height: 1.45;
-	  font-size:20px;
+      line-height: 1.5;
+	  font-size:15px;
 	  text-align: center;
 }
