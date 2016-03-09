@@ -26,6 +26,7 @@ img { width: 400px;
 
 a {color: yellow;
   text-decoration: none;
+  display:inline;
 
 
 
