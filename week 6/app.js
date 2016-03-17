@@ -1,12 +1,34 @@
-document.getElementById('answerClick').addEventListener('click', function(){
+var TaskButton = document.getElementById("addTask");
+    var Input = document.getElementById("newTask");
+    var todo = document.getElementById("todolist");
+
+TaskButton.addEventListener('click', function(event) {
     
-console.log(this);
+    var TaskName = Input.value;
+    Input.value = "";
     
-var x =  document.getElementById('list').value;
- 
-document.body.appendChild(x); 
-message.innerHTML = 
-                                                        
-console.log(x);
+    var elem = document.createElement("h1");
+    elem.innerHTML = TaskName;
+    todo.appendChild(elem);
+    
+    
+    
+        press.onclick = function() {
+            this.remove();
+            elem.remove();
+            
+}
         
+
+            
+    todo.appendChild(press);
+    
 });
+            
+var TaskButton2 = document.getElementById("removeTask");
+    document.getElementById("removeTask").onclick = function() {
+    
+    todo.innerHTML =""; // .remove();
+            
+
+}

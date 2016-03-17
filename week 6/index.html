@@ -24,23 +24,34 @@
 
 
     <div container="container">
+        
+     
     
     
     <p>Make A To-Do-List!</p>    
       
         
-    <input type="text" id="list"  placeholder="enter a task"></input>    
+    <form>
+        
+        <label>
+        Add Task:
+        <input id ="newTask" type="text" placeholder="Go fo a walk">
+        </label>
+        
+        <button type="button" id="addTask">Add task</button>
+        <button type="button" id="removeTask">Remove task</button>
+   
+   </form>
     
+    <ul id="todolist">
+    </ul>
+        
+    </div>    
+        
+  <script src="app.js"></script> 
     
-    <button id="answerClick">Add.</button>
-     
-    
-    <p id="message"></p>
-    
-    
-
-</div>
-<script src="app.js"></script>
-
 </body>
+    
 </html>
+        
+        
