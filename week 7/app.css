@@ -1,8 +1,8 @@
 label {font-size: 1.2em;
       font-family: Verdana;
       font-weight: 200;
-      color: green;
-      background-color:#D9F7D9;
+      
+      
       
 
 }
@@ -15,8 +15,8 @@ img { width: 350px;}
     
 }
 
-body {font-family: Helvetica, Arial, sans-serif;
-      background: darkorange;
+body {font-family: Verdanan, Arial, sans-serif;
+      background: #CCFFFF;
       margin: 0;
       line-height: 1.45;
 	  font-size:20px;
@@ -27,3 +27,7 @@ p {font-size: 1.3em;
    font-family: fantasy;
    color: darkblue;
 }
+
+h1 { color: white;
+     background-color: black;
+     

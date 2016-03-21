@@ -1,4 +1,4 @@
-var questions = ["Is the sky blue?", "What os the capital of Latvia?", "What is 2 + 2?"};
+var questions = ["Is the sky blue?", "What os the capital of Latvia?", "What is 2 + 2?"];
                  
 var answers = [ "Yes", "Riga", "4", "Hello"];
 
