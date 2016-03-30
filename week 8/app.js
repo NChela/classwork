@@ -1,20 +1,23 @@
-var submit = document.getElementById("submit");
-submit.addEventListener('click', function(event) {
-    
+var userInput = [];
+var answers = ["B", "D", "A", "C", "C", "D", "A", "C", "A", "B"]; 
 
-    var chars = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()-+<>ABCDEFGHIJKLMNOP1234567890";
-    var pass = "";
-    for (var i = 0; i < 8; i++) {
-        var i = Math.floor(Math.random() * chars.length);
-        pass += chars.charAt(i);
-    }
-    
-    var message = document.getElementById("message");
-    message.innerHTML = pass;
-});
+function getScore(){
+var score=0;
+var numQuestions=10;
 
+for (var i = 0; i < numQuestions; i++){
+console.log(document.getElementsByName("question" + i));    
 
+if (userInput[i] == answers[i]){
+score += 1;
+}
+else{
+score += 0;
+}
 
-                                  
-
-                 
+}
+return score;
+}
+function returnScore(){
+alert("Your score is "+getScore()+"/10");
+}

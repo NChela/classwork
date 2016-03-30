@@ -16,7 +16,7 @@ img { width: 350px;}
 }
 
 body {font-family: Verdanan, Arial, sans-serif;
-      background: #CCFFFF;
+      background: lightgrey;
       margin: 0;
       line-height: 1.45;
 	  font-size:20px;
@@ -28,6 +28,7 @@ p {font-size: 1.3em;
    color: darkblue;
 }
 
-h1 { color: white;
+h3 { color: lightgoldenrodyellow;
      background-color: black;
+    
      
