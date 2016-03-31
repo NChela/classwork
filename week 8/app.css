@@ -7,7 +7,7 @@ label {font-size: 1.2em;
 
 }
 
-img { width: 350px;}
+img { width: 400px;}
 
 
 #container{max-width: 760px;
@@ -28,7 +28,9 @@ p {font-size: 1.3em;
    color: darkblue;
 }
 
-h3 { color: lightgoldenrodyellow;
+h3 { color: #FFE68E;
      background-color: black;
+     font-size: 1.1em;
+       
     
      
