@@ -7,7 +7,10 @@ label {font-size: 1.2em;
 
 }
 
-img { width: 400px;}
+img { width: 400px;
+      
+}
+     
 
 
 #container{max-width: 760px;
@@ -15,8 +18,10 @@ img { width: 400px;}
     
 }
 
+
+
 body {font-family: Verdanan, Arial, sans-serif;
-      background: lightgrey;
+      background: #66B2FF;
       margin: 0;
       line-height: 1.45;
 	  font-size:20px;
@@ -31,6 +36,11 @@ p {font-size: 1.3em;
 h3 { color: #FFE68E;
      background-color: black;
      font-size: 1.1em;
+     font-family: Verdana;
+     display: inline-block;
+ 
+}
+     
        
     
      
